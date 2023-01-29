@@ -1,0 +1,128 @@
+import useId from "@mui/material/utils/useId";
+
+export const familyData = [
+  {
+    id: "1",
+    name: "Great Grand father 1",
+    spouse: "Great Grand Mother 1",
+    location: "Bhopal",
+    year: 1949,
+    address: "123 patel road Bhopal",
+    children: [
+      {
+        id: "1.1",
+        name: "Son 1.1",
+        spouse: "Wife of 1.1",
+        location: "Ajmer",
+        year: 1970,
+        address: "456 Chandni road Ajmer",
+        children: [],
+      },
+      {
+        id: "1.2",
+        name: "Daughter 1.2",
+        spouse: "Husband of 1.2",
+        location: "Meerut",
+        year: 1972,
+        address: "996 Kelash road Meerut",
+        children: [
+          {
+            id: "1.2.1",
+            name: "Daughter 1.2.1",
+            spouse: "Husband of 1.2.1",
+            location: "Delhi",
+            year: 1983,
+            address: "109 vishapuram Delhi",
+            children: [],
+          },
+          {
+            id: "1.2.2",
+            name: "Son 1.2.2",
+            spouse: "Wife of 1.2.2",
+            location: "Aligarh",
+            year: 1989,
+            address: "1/20 Rajghat Aligarh",
+            children: [
+              {
+                id: "1.2.2.1",
+                name: "Daughter 1.2.2.1",
+                spouse: "Husband of 1.2.2.1",
+                location: "Roorkee",
+                year: 1995,
+                address: "200 Old Roorkee",
+                children: [],
+              },
+            ],
+          },
+          {
+            id: "1.2.3",
+            name: "Daughter 1.2.3",
+            spouse: "Husband of 1.2.3",
+            location: "old Delhi",
+            year: 1986,
+            address: "000 Laxminagar Delhi",
+            children: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "2",
+    name: "Great Grand father 2",
+    spouse: "Great Grand Mother 2",
+    location: "Patna",
+    year: 1951,
+    address: "78 Patna road Patna",
+    children: [
+      {
+        id: "2.1",
+        name: "Son 2.1",
+        spouse: "Wife of 2.1",
+        location: "Indore",
+        year: 1961,
+        address: "56 Indore city",
+        children: [],
+      },
+      {
+        id: "2.2",
+        name: "Daughter 2.2",
+        spouse: "Husband of 2.2",
+        location: "Ballia",
+        year: 1966,
+        address: "66 Baghi road, Ballia",
+        children: [
+          {
+            id: "2.2.1",
+            name: "Daughter 2.2.1",
+            spouse: "Husband of 2.2.1",
+            location: "Ahmedabad",
+            year: 1978,
+            address: "197 adharsha Road, Ahmedabaad",
+            children: [],
+          },
+          {
+            id: "2.2.2",
+            name: "Daughter 2.2.2",
+            spouse: "Husband of 2.2.2",
+            location: "Jaipur",
+            year: 1988,
+            address: "889 nokha road, Jaipur",
+            children: [],
+          },
+        ],
+      },
+    ],
+  },
+];
+
+// setFamily([{
+//   id: 1,
+//   name: "Grandpa",
+//   spouse: "grandma",
+//   location: "delhi",
+//   birthYear: 1967,
+//   address: "aligarh,up",
+//   photos: [1, 2],
+//   children: ["C1", "C2", "C3"],
+// }]);
